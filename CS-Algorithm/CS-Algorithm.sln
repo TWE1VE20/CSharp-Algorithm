@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS-Algorithm", "CS-Algorithm\CS-Algorithm.csproj", "{B7CC589C-A92B-4203-BF6F-36C2831FA0D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CS-Algorithm", "CS-Algorithm\CS-Algorithm.csproj", "{B7CC589C-A92B-4203-BF6F-36C2831FA0D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. List", "01. List\01. List.csproj", "{4BBA02AD-1359-44EB-BF4B-B4B2AB57FEFA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{B7CC589C-A92B-4203-BF6F-36C2831FA0D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B7CC589C-A92B-4203-BF6F-36C2831FA0D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B7CC589C-A92B-4203-BF6F-36C2831FA0D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BBA02AD-1359-44EB-BF4B-B4B2AB57FEFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BBA02AD-1359-44EB-BF4B-B4B2AB57FEFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BBA02AD-1359-44EB-BF4B-B4B2AB57FEFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BBA02AD-1359-44EB-BF4B-B4B2AB57FEFA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
