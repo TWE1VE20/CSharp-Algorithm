@@ -107,11 +107,11 @@ namespace DataStructure
             {
                 for (int i = 0; i < size; i++)
                 {
-                    if (item.Equals(items[i]))
+                    if (item.Equals(items[i]))  // ==이 자료형마다 정의가 달라기지에(자료형이 같은지, 값이 같은지, 같은것을 가리키는지) 이를 Equals로 처리한다.
                         return i;
                 }
             }
-
+            
             return -1;
         }
 
