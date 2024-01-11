@@ -84,13 +84,20 @@ namespace _01._List
             // 삽입
             list.Add("0번 데이터");
             list.Add("1번 데이터");
-            list.Add("2번 데이터");
-            list.Insert(1, "중간 데이터1");
+            list.Add("2번 데이터");              // O(1)
+            list.Insert(1, "중간 데이터1");      // O(n)
             list.Insert(3, "중간 데이터2");
+
+            // 삽입을 할때 용량 할당량을 넘어가면 이전 배열을 버리고 다시 생성하기에
+            // GB에 의하여 느려질수 있는 단점이 있다.
+            // 이를 해결하기 위하여 생성시부터 Capacity를 사용하거나 생성시 매개변수로
+            // 크기를 설정해 주면 부담을 줄여줄 수 있다.
+            // List<T> list = new List<T>(1000);
+            // list.Capacity = 1000; 이후에 이렇게도 설정 가능
 
 
             // 삭제
-            list.Remove("1번 데이터");
+            list.Remove("1번 데이터");          // O(n)
             list.RemoveAt(1);
 
 
@@ -100,7 +107,7 @@ namespace _01._List
 
 
             // 탐색
-            int indexOf = list.IndexOf("2번 데이터");
+            int indexOf = list.IndexOf("2번 데이터");                   // O(n)
             int findIndex = list.FindIndex(x => x.Contains("중간"));
         }
     }
