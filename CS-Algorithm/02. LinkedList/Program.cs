@@ -120,6 +120,8 @@
             /* SortedSet와같은 이진트리 방식에도 사용될 수 있다.
             foreach (string value in SortedSet)
                 Console.Write($"{value}");
+
+            IEnumerable이 구현되어있다면 foreach문을 사용할 수 있다.
             */
         }
     }
