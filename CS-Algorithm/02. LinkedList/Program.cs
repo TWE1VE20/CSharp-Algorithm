@@ -99,6 +99,28 @@
 
             // 탐색
             LinkedListNode<string> findNode = linkedList.Find("5번 데이터");
+
+            // List, LinkedList 나열
+
+            // for문을 이용하여 나열이 가능하지만 복잡하다.
+            List<int> list = new List<int>();
+            for (int i = 0; i < list.Count; i++)
+                Console.Write($"{list[i]}");
+
+            for (LinkedListNode<string> node = linkedList.First; node != null; node = node.Next)
+                Console.Write($"{node.Value}");
+
+            // 이러한 선형구조를 출력하는데 쓰는것이 foreach
+            foreach(int value in list)
+                Console.Write($"{value}");
+
+            foreach (string value in linkedList)
+                Console.Write($"{value}");
+
+            /* SortedSet와같은 이진트리 방식에도 사용될 수 있다.
+            foreach (string value in SortedSet)
+                Console.Write($"{value}");
+            */
         }
     }
 }
