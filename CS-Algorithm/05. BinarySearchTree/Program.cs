@@ -172,6 +172,7 @@ namespace _05._BinarySearchTree
             // 이진탐색트리 기반의 SortedDictionary 자료구조
             // 중복을 허용하지 않는 key를 기준으로 정렬을 보장한 value 저장소
             SortedDictionary<int, string> sortedDictionary = new SortedDictionary<int, string>();
+            // 예로들어 포켓몬을 저장한다고 한다면 포케몬 번호를 key로서 넣고, 이름을 value값으로 넣음으로서 빠르게 탐색 가능하도록 만들어 줄 수 있다.
 
             // 삽입
             sortedDictionary.Add(2, "A");
