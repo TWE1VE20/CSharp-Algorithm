@@ -173,6 +173,7 @@ namespace _05._BinarySearchTree
             // 중복을 허용하지 않는 key를 기준으로 정렬을 보장한 value 저장소
             SortedDictionary<int, string> sortedDictionary = new SortedDictionary<int, string>();
             // 예로들어 포켓몬을 저장한다고 한다면 포케몬 번호를 key로서 넣고, 이름을 value값으로 넣음으로서 빠르게 탐색 가능하도록 만들어 줄 수 있다.
+            // key는 IComparable이어야 작동한다. (IComparable이 아니면 head까지는 들어가지만 2번쨰 leaf를 넣으려고 하면 에러가 나온다.)
 
             // 삽입
             sortedDictionary.Add(2, "A");
@@ -187,7 +188,8 @@ namespace _05._BinarySearchTree
 
             // 탐색
             sortedDictionary.ContainsKey(3);                        // 포함 확인
-            sortedDictionary.TryGetValue(3, out string mapValue);   // 탐색 시도
+            sortedDictionary.TryGetValue(3, out string mapValue);   // 탐색 시도 : 예외처리까지 감안하여 key를 가지고 value값을 받아옴
+            string Item = sortedDictionary[1];                      // 인덱서[key]를 통한 탐색
 
             // 순서대로 출력시 정렬된 결과 확인
             foreach (string value in sortedDictionary.Values)
