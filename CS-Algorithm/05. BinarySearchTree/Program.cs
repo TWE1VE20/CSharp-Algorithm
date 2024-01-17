@@ -174,6 +174,7 @@ namespace _05._BinarySearchTree
             SortedDictionary<int, string> sortedDictionary = new SortedDictionary<int, string>();
             // 예로들어 포켓몬을 저장한다고 한다면 포케몬 번호를 key로서 넣고, 이름을 value값으로 넣음으로서 빠르게 탐색 가능하도록 만들어 줄 수 있다.
             // key는 IComparable이어야 작동한다. (IComparable이 아니면 head까지는 들어가지만 2번쨰 leaf를 넣으려고 하면 에러가 나온다.)
+            // 단 C#에서 node를 사용한 Dictionary이기에 비효율적
 
             // 삽입
             sortedDictionary.Add(2, "A");
