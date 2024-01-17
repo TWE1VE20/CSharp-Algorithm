@@ -161,7 +161,7 @@ namespace _05._BinarySearchTree
             // 탐색
             sortedSet.Contains(3);          // 포함 확인
 
-            // 순서대로 출력시 정렬된 결과 확인
+            // 순서대로 출력시 정렬된 결과 확인 (중위순회로 배회하면 순서대로 출력된다.)
             foreach (int value in sortedSet)
             {
                 Console.Write(value);       // output : 1235
