@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04. Queue", "04. Queue\04. 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05. BinarySearchTree", "05. BinarySearchTree\05. BinarySearchTree.csproj", "{F4779EA6-8DC7-4F3C-943B-D394125371A4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Heap", "06. Heap\06. Heap.csproj", "{249E8A23-138F-4023-B556-317B414DD339}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06. Heap", "06. Heap\06. Heap.csproj", "{249E8A23-138F-4023-B556-317B414DD339}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. HashTable", "07. HashTable\07. HashTable.csproj", "{D07C1FF3-70BB-4577-9E85-61E1B21C1BCC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{249E8A23-138F-4023-B556-317B414DD339}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{249E8A23-138F-4023-B556-317B414DD339}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{249E8A23-138F-4023-B556-317B414DD339}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D07C1FF3-70BB-4577-9E85-61E1B21C1BCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D07C1FF3-70BB-4577-9E85-61E1B21C1BCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D07C1FF3-70BB-4577-9E85-61E1B21C1BCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D07C1FF3-70BB-4577-9E85-61E1B21C1BCC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
